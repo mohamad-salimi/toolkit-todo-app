@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    flex: 1 1 0;
+    background-color: #FFFFFF;
+    border-top: 1px solid #D6D7EF;
+ }
+
+.filterButton {
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0px;
+
+ }
+
+.filterButton p {
+    color: #9395D3;
+    font-size: 10px;
+ }

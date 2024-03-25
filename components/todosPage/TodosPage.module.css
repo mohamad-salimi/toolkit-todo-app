@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 21px;
+    min-height: 100vh;
+    background-color: #D6D7EF;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #9395D3;
+    padding: 20px 16px;
+}
+
+.header h2{
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.todoCardSection {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 0px 8px 170px 8px;
+}
+
+.addTodo {
+    background-color: #9395D3;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    box-shadow: 0px 3px rgba(000, 000 , 000, 0.05);
+}
+
+.addTodo button {
+    border: none;
+    background: none;
+    color: #FFFFFF;
+    font-weight: 100;
+    font-size: 30px;
+}
+

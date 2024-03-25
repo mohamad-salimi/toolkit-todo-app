@@ -1,0 +1,51 @@
+.container {
+    padding: 16px;
+    display: flex;
+    background-color: #FFFFFF;
+    border: 1px solid #F5F5F7;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 8px;
+    box-shadow: 0px 4px rgba(000, 000, 000, 0.05);
+}
+
+.completedContainer {
+    opacity: 50%;
+    padding: 16px;
+    display: flex;
+    background-color: #FFFFFF;
+    border: 1px solid #F5F5F7;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 8px;
+    box-shadow: 0px 4px rgba(000, 000, 000, 0.05);
+}
+
+.todoCardSection {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.todoTitle {
+    color:#9395D3;
+    font-size: 14px;
+    font-weight: 700;
+    overflow-wrap: anywhere;
+}
+
+.todoDescription {
+    color: #000000;
+    font-size: 10px;
+    overflow-wrap: anywhere;
+}
+
+.iconSection {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+

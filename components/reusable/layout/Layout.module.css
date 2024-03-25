@@ -1,0 +1,11 @@
+.container {
+    background-color: #9395D3;
+    padding: 20px 16px;
+    display: flex;
+    align-items: center;
+    column-gap: 28px;
+}
+.title {
+    font-size: 20px;
+    color: #FFFFFF;
+}
